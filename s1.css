@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+footer{
+    display: flex;
+    background-color: skyblue;
+    margin-top: 200px;
+    padding-top: 40px;
+    justify-content: center;
+    gap: 200px;
+}
+.f1{
+    display: flex;
+    gap: 10px;
+    line-height: 10px;
+    align-items: center;
+    padding-bottom: 5px;
+    text-align: justify;
+}
+h1{
+    font-size: 30px;
+    color: white;
+    text-transform: capitalize;
+    padding-bottom: 30px;
+}
+p{
+    font-size: 20px;
+    color: white;
+    text-transform: capitalize;
+    max-width: 400px;
+    padding-bottom: 5px;
+}
+a{
+    color:grey;
+    text-decoration: underline 1px white;
+    font-size: 20px;
+    font-weight: lighter;
+    line-height: 10px;
+}
+span{
+    font-size: 20px;
+    color: grey;
+    font-weight: lighter;
+    padding-bottom: 5px;
+    text-transform: capitalize;
+}
+input{
+    height: 40px;
+    width: 200px;
+    border: none;
+    background-color: white;
+}
+::placeholder{
+    font-size: 20px;
+    color: grey;
+}
+button{
+    height: 40px;
+    width: 150px;
+    font-size: 20px;
+    padding: 2px;
+    border: solid 1px white;
+    background-color: transparent;
+    /* margin-top: 30px; */
+ 
+}
+.f2{
+    padding-top: 30px;
+    display: flex;
+    background-color: skyblue;
+      gap: 200px;
+    line-height: 30px;
+    padding-left: 820px;
+    padding-bottom: 30px;
+   
+}
+.ff{
+
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+a:hover{
+    text-decoration: underline 2px black;
+}
+h1:hover{
+    text-decoration: underline 2px black;
+}
